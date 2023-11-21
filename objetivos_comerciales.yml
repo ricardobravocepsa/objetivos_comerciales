@@ -1,0 +1,11 @@
+product_id: objetivos_comerciales
+alias: "objetivos comerciales"
+description: plan mensual de ventas (PVM) a nivel de comercial, donde se establecen objetivos mensuales y diarios 
+type: dataset
+subtype: fact 
+business: products/objetivos_comerciales/business.yml
+outputs: 
+  - products/objetivos_comerciales/contract.yml
+inputs: 
+  - products/objetivos_comerciales/contract-aux.1.yml      
+pipeline: products/objetivos_comerciales/pipeline.yml    
